@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Quantity and Price Calculator</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+          <div class="product-card">
+            
+            <div class="product-image">
+                <img src="Coffee_mug.jpeg" alt="Product Image">
+            </div>
+            
+            
+            <h2 class="product-name"></h2>
+            <p class="product-price">₹199</p>
+            
+            
+            <p class="product-description">
+                Sip in Style, One Cozy Moment at a Time.
+            </p>
+            <h2>Product Name</h2>
+        <p>Price per item: Rs.199</p>
+        
+        
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="1" value="1">
+
+        
+        <p>Total Price: Rs.<span id="total-price">199</span></p>
+
+        
+            <button class="buy-now-button">Buy Now</button>
+
+        
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <p id="modal-message"></p>
+        </div>
+        </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
